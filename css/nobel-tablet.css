@@ -1,0 +1,262 @@
+/**
+ * 	Nobel Learning Stylesheet - Tablet viewports
+ *  Author: NLCI Web Team
+ *  Package: Nobel Learning
+ *  Version: 1.0
+ * 
+ * 	Viewports:
+ * 		768
+ * 		1024
+ * 		
+ */
+
+
+@media only screen and ( min-width: 768px ) {
+	
+	body {
+		font-size: 15px;
+	}
+	
+	.wrapper,
+	.sub-wrapper,
+	#container,
+	.emergency-wrapper {
+		margin: 0 0 0 0;
+		padding: 0 1.6em 0;
+	}
+	
+	#header .wrapper {
+		padding: 0 0 0 1.6em;
+	}
+	
+	.mobile {
+		display: none;
+	}
+	.tablet {
+		display: block;
+	}
+	
+	body.page-template-template-home #main {
+		margin: 1.5em 0;
+	}
+	
+	
+/**	Header
+============================ */
+	div.header-title h1.logo-title {
+		font-size: 1.6em;
+	}
+	div.header-title h1.logo-title span {
+		font-size: 0.5em;
+	}
+	div.header-title p.description {
+		font-size: 1.1em;
+	}
+	
+	
+/**	Navigation
+============================ */
+	#main_nav ul.menu {
+		left: 60%;
+	}
+	#main_nav ul.menu li a {
+		font-size: 1.1em;
+		padding: 0.5em 1em;
+		border-bottom: none;
+	}
+	#main_nav ul.menu li ul.children li a {
+		font-size: 1em;
+		padding: 0.5em 2em;
+		border-bottom: none;
+	}
+	#main_nav ul.menu li ul.children li ul.children li a {
+		padding: 0.5em 2.5em;
+	}
+	
+	#menu_toggle,
+	ul.nobel-nav-link {
+		display: block;
+		float: left;
+	}
+	
+	#main_nav ul#nobel_contact_link li a {
+		display: block;
+		padding: 1.75em 1em;
+		font-size: 1.1em;
+		font-weight: 500;
+	}
+	
+/**	Form Elements
+============================ */	
+	input[type="text"],
+	input[type="search"],
+	input[type="email"],
+	input[type="tel"],
+	input[type="password"],
+	input[type="file"],
+	textarea,
+	select {
+		font-size: 0.9em;
+	}
+
+/**	Sub Page
+============================ */
+	#nobel_breadcrumbs {
+		font-size: 0.9em;
+	}
+	#nobel_breadcrumbs ul li {
+		display: inline;
+		margin: 0 0.5em 0 0;
+	}
+	#nobel_breadcrumbs ul li ul.children {
+		display: inline;
+	}
+	#nobel_breadcrumbs ul li ul.children li {
+		margin: 0 0 0 0.5em;
+	}
+	#nobel_breadcrumbs ul li a {
+		display: inline-block;
+		padding: 0.7em 0;
+	}
+	#nobel_breadcrumbs ul li a span {
+		margin: 0 0 0 6px;
+	}
+	#nobel_tool_bar li {
+		display: inline-block;
+	}
+	
+	div.ltl-video {
+		width: 30%;
+		float: right;
+		margin: 0 1em 0 2em;
+	}
+	
+	.slug-pre-k div.ltl-video,
+	.slug-intermediates div.ltl-video,
+	.slug-beginners div.ltl-video,
+	.slug-toddlers div.ltl-video,
+	.slug-infants div.ltl-video  {
+		float: left;
+		margin: 0 2em 1em 0;
+
+	}
+	
+	div.links-to-home img,
+	div.monthly-folder img {
+		width: 18%;
+	}
+	div.links-to-home div {
+		width: 78%;
+	}
+	
+/**	Calendar
+============================ */	
+	.nobel-calendar-container form.search-form input.search-field {
+		min-width: 82%;
+	}	
+	
+	.event-popup-close {
+		position: absolute;
+		top: 1em;
+		right: 1em;
+		pointer-events: initial;
+	}
+	.event-info-popup .event-popup-close i {
+		color: #514D4D;
+		font-size: 1em !important;
+	}
+
+	/* Links to Learning */
+	ul.links-to-learning {
+		margin: 1.3em 0 0;
+	}
+	ul.links-to-learning li {
+		width: 48%;
+		min-height: 10em;
+		float: left;
+		margin: 0 0 1em;
+	}
+	ul.links-to-learning li:nth-of-type( even ) {
+		margin: 0 0 1em 4%;
+	}
+	
+/**	Footer
+============================ */
+	#footer {
+		font-size: 0.9em;
+	}
+	#nobel_footer_social {
+		float: right;
+		text-align: center;
+	}
+	#footer_social {
+		min-width: auto;
+		float: none;
+		margin: 0 0 3em 0;
+	}
+	#footer_details,
+	#footer_links {
+		font-size: 0.9em;
+	}
+	#footer_links {
+		margin: 0 0 0 0;
+	}
+	#footer_details p {
+		margin: 0 0 1.2em 0;
+	}
+	#footer_details ul li,
+	#footer_links ul li {
+		margin: 0 0.3em 0.8em 0;
+	}
+	
+} /* End Query */
+
+
+
+@media only screen and ( min-width: 1024px ) {
+	
+	.wrapper,
+	.sub-wrapper,
+	#container,
+	.emergency-wrapper {
+		margin: 0 0 0 0;
+		padding: 0 2em 0;
+	}
+	ul.links-to-learning li {
+		min-height: 9em;
+	}
+	div.links-to-home,
+	div.monthly-folder {
+		width: 90%;
+		margin: 1em auto 0;
+	}
+	div.links-to-home img,
+	div.monthly-folder img {
+		width: 12%;
+	}
+	div.links-to-home div {
+		width: 85%;
+	}
+	#l2h_download {
+		display: block;
+		width: 260px;
+		margin: auto;
+	}
+	
+	
+/**	Calendar
+============================ */	
+	.nobel-calendar-container form.search-form input.search-field {
+		min-width: 86%;
+	}	
+	
+/**	Footer
+============================ */
+	#nobel_footer_social {
+		min-width: 30%;
+	}
+	#footer_navigation {
+		display: block;
+	}
+
+} /* END MEDIA QUERY */

@@ -1,0 +1,221 @@
+/**
+ * 	Nobel Learning Stylesheet - Desktop Viewports
+ *  Author: NLCI Web Team
+ *  Package: Nobel Learning
+ *  Version: 1.0
+ * 
+ * 	Viewports : 
+ * 		1025
+ * 		1200
+ * 		1600
+ */
+
+
+
+@media only screen and ( min-width: 1280px ) {
+	
+	body {
+		font-size: 16px;
+	}
+	
+	.wrapper,
+	.sub-wrapper,
+	#container,
+	.emergency-wrapper {
+		margin: 0 auto 0;
+		padding: 0 0 0 0;
+		width: 96%;
+		max-width: 1440px;
+	}
+	.single-post #container {
+		width:100%;
+	}
+	.sub-wrapper,
+	#container {
+		max-width: 1160px;
+	}
+	
+	#header .wrapper {
+		padding: 0 0 0 0;
+	}
+	
+	.desktop {
+		display: block;
+	}
+	
+/**	Header
+============================ */
+	#header {
+		position: fixed;
+	}
+	#branding{
+		margin: 0 0 0 0;
+		top: 0.75em;
+	}
+	div.header-title h1.logo-title {
+		font-size: 1.5em;
+	}
+	div.header-title h1.logo-title span {
+		font-size: 0.5em;
+	}
+	div.header-title p.description {
+		font-size: 1em;
+	}
+	
+/**	Navigation
+============================ */
+	#menu_toggle {
+	    display: none;
+	}
+	#main_nav {
+		display: block;
+		float: right;
+		padding: 0 0 0 0;
+		position: relative;
+		max-width: none;
+	}
+	#main_nav ul.menu {
+		position: relative;
+		left: auto;
+		display: block;
+		min-width: auto;
+		float: left;
+	}
+	#main_nav ul.menu li {
+		display: inline-block;
+		position: relative;
+	}
+	#main_nav ul#nobel_contact_link li a,
+	#main_nav ul.menu li a {
+		font-size: 1em;
+		padding: 1.7em 0.8em;
+		border-bottom: none;
+	}
+	#main_nav ul.menu li:hover ul.children,
+	#main_nav ul.menu li:hover ul.sub-menu {
+		display: block;
+	}
+	#main_nav ul.menu li ul.children,
+	#main_nav ul.menu li ul.sub-menu {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		z-index: 20;
+	}
+	#main_nav ul.menu li ul.children li,
+	#main_nav ul.menu li ul.sub-menu li {
+		display: block;
+	}
+	#main_nav ul.menu li ul.children li a,
+	#main_nav ul.menu li ul.sub-menu li a  {
+		white-space: nowrap;
+		font-size: 0.9em;	
+		padding: 0.5em 0.8em;
+		min-width: 12em;
+	}
+	#main_nav ul.menu li ul.children li:hover,
+	#main_nav ul.menu li ul.sub-menu li:hover {
+		background: #DC661E;
+	}
+	#main_nav ul.menu li ul.children li ul.children,
+	#main_nav ul.menu li ul.sub-menu li ul.sub-menu {
+		display: none;
+		position: absolute;
+		left: 100%;
+		top: 0;
+	}
+	#main_nav ul.menu li ul.children li:hover ul.children,
+	#main_nav ul.menu li ul.sub-menu li:hover ul.sub-menu {
+		display: block;
+	}
+	#main_nav ul.menu li ul.children li ul.children li a,
+	#main_nav ul.menu li ul.sub-menu li ul.sub-menu li a {
+		padding: 0.5em 0.8em;
+	}	
+	
+	#back_to_top {
+		display: none;
+	}
+	
+	
+	div.ltl-video {
+		margin: 0 1em 0 3em;
+	}
+
+	.slug-pre-k div.ltl-video,
+	.slug-intermediates div.ltl-video,
+	.slug-beginners div.ltl-video,
+	.slug-toddlers div.ltl-video,
+	.slug-infants div.ltl-video,
+	.slug-parent-communication div.ltl-video {
+		float: left;
+		margin: 0 3em 1em 0;
+	}
+	
+/**	Calendar
+============================ */	
+	.nobel-calendar-container .tools {
+		position: absolute;
+		top: 0;
+		left; 0;
+		width: 48%;
+		z-index: 10;
+	}
+	.nobel-calendar-container .calendar-header .quick-navigation {
+		margin: 0 0 0 0 !important;
+	}
+	.nobel-calendar-container .calendar-header .quick-navigator {
+		width: 48%;
+		float: right;
+		margin: 0 0 2em 0 !important;
+	}
+	.nobel-calendar-container form.search-form input.search-field {
+		min-width: 75%;
+	}	
+	
+	ul.links-to-learning li {
+		min-height: 7em;
+	}
+	
+/**	Footer
+============================ */
+	#footer {
+		font-size: 0.8em;
+		padding: 3em 0;
+	}
+	
+	#footer_social {
+		margin: 0 0 4em 0;
+	}
+	#footer_navigation {
+		margin: 0 0 0 0;
+	}
+	
+		
+
+} /* END MEDIA QUERY */
+
+
+
+@media only screen and ( min-width: 1440px ) {
+	
+/**	Footer
+============================ */	
+	#footer_nav {
+		text-align: right;
+	}
+	#footer_nav li {
+		margin: 0 0 0 1.5em;
+		text-align: left;
+	}
+	#footer .footer-section:first-of-type {
+		float: left;
+		width: 47%;
+	}
+	#footer .footer-section:last-of-type {
+		float: left;
+		width: 53%;
+	}
+
+}
