@@ -3,7 +3,7 @@ var opts = {
             //auto-advancing slides? accepts boolean (true/false) or object
             auto : { 
                 // speed to advance slides at. accepts number of milliseconds
-                speed : 2500, 
+                speed : 7000, 
                 // pause advancing on mouseover? accepts boolean
                 pauseOnHover : true 
             },
