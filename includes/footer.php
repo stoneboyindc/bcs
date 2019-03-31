@@ -17,4 +17,4 @@
 		</ul>
 </div><!-- #footer -->   
 
-<script type="text/javascript" src="https://www.bethesdacountrydayschool.com/wp-content/themes/nobel/js/nobel.js?ver=1"></script>
+<script type="text/javascript" src="js/nobel.js"></script>
