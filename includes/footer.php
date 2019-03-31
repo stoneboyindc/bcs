@@ -9,11 +9,11 @@
 		</ul>
 		<p>Contact Info</p>
 		<ul>
-			<li>Tommy Trainer</li>
+			<li>Tammy Trainer</li>
 			<li class="separator">|</li>
 			<li>Director</li>	
 			<li class="separator">|</li>
-			<li><span id="gc-number-1" class="gc-cs-link" title="Call with Google Voice">(301) 652-0117</span></li>
+			<li>(301) 652-0117</li>
 		</ul>
 </div><!-- #footer -->   
 

@@ -1,0 +1,26 @@
+#header {
+	background: rgba(0,53,107, 1.0);
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+#footer {
+	background: rgba(0,53,107, 1.0);
+}
+
+#main_nav ul.menu {
+	background: rgba(0,53,107, 1.0);
+}
+
+h1.entry-title {
+	color: rgba(0,53,107, 1.0);
+	font-weight: 500;
+}
+
+.entry-content a {
+	color: rgba(0,53,107, 1.0);
+}
+
+#header-logo img {
+	height: auto;
+	width: auto;
+}

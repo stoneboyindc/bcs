@@ -7,6 +7,7 @@
 <!-- ==== end header =================================================================================-->     
 
 <div class="bss-slides">
+<!--
     <figure>
         <img src="images/firetruck.jpg" width="100%" />
         <figcaption></figcaption> 
@@ -23,6 +24,7 @@
         <img src="images/lola.jpg" width="100%" />
         <figcaption></figcaption> 
     </figure>
+	-->
 </div>
 
 <!-- ==== slides =================================================================================-->

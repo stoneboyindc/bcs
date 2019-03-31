@@ -8,11 +8,7 @@
 
 <div class="bss-slides">
     <figure>
-        <img src="images/spray.jpg" width="100%" />
-        <figcaption></figcaption> 
-    </figure>
-    <figure>
-        <img src="images/greer.jpg" width="100%" />
+        <img src="images/greer_spray.jpg" width="100%" />
         <figcaption></figcaption> 
     </figure>
 </div>

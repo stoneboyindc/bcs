@@ -1,0 +1,472 @@
+/*
+ * 	Nobel Learning Stylesheet -- PRESCHOOL
+ *  Author: NLCI Web Team
+ *  Package: Nobel Learning
+ *  Version: 1.0
+ *
+ *
+ *  Default
+ *  Header
+ *    Emergency Notification
+ * 	Navigation
+ * 	  Quick Links
+ * 	Content
+ *  Sub Page Elements
+ * 	Footer
+ *
+ * 	@media only screen and ( min-width: 480px )
+ *  @media only screen and ( min-width: 768px )
+ *  @media only screen and ( min-width: 1024px )
+ *  @media only screen and ( min-width: 1280px )
+ */
+
+
+/**	Default
+============================ */
+body {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	color: #514d4d;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+
+/**	Header
+============================ */
+#header {
+	background: rgba(0,157,220, 1.0);
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+div.header-title h1 {
+	font-weight: 500;
+}
+
+
+/**	Navigation
+============================ */
+#main_nav {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+#main_nav ul.menu {
+	background: rgba(0,157,220, 1.0);
+}
+#main_nav ul li.current_page_item > a,
+#main_nav ul li.current_page_ancestor > a,
+#main_nav ul li.current_page_parent > a {
+	color: #FFD100;
+}
+#main_nav ul#nobel_contact_link li a {
+	background: #FFD100;
+	color: #000000;
+}
+/*	Quick Links */
+#back_to_top a,
+#nobel_quick_links ul li a {
+	background: #F68B1F;
+}
+
+
+/**	Home Page
+============================ */
+#slideshow_content h3 {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	font-weight: 600;
+}
+#school_details {
+	background: #E8EEB2;
+}
+#school_details li i,
+#school_details li span.dashicons,
+#school_details li h4 {
+	color: #009DDC;
+	font-size: 1.1em;
+	font-weight: 500;
+}
+#school_details li a {
+	color: #F68B1F;
+	text-decoration: none;
+}
+#school_details li.nc-star-rating {
+	padding-top: 0.5em;
+	color: #009DDC;
+}
+#school_details li.nc-star-rating span {
+	font-weight: 500;
+}
+#school_details li.nc-star-rating i {
+	font-size: 0.9em;
+}
+#open_house,
+#open_house_content {
+	background: #68C8C6;
+}
+#open_house_content p {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+#open_house_content p:first-of-type {
+	font-weight: 600;
+}
+#open_house_content p a {
+    color: #009DDC;
+    font-weight: 600;
+}
+#nobel_home_calendar h1 {
+	font-size: 1.8em;
+	color: #009DDC;
+	font-weight: 600;
+}
+#nobel_home_calendar #all_events {
+	font-size: 0.8em;
+	color: #F68B1F;
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	font-weight: 600;
+}
+#home_calendar_events li {
+	border-color: #009DDC;
+}
+#home_calendar_events li div.home-cal-date span:first-of-type,
+#popup_link {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #F68B1F;
+	margin: 0 0 0.5em 0;
+}
+#home_calendar_events li div.home-cal-date span:last-of-type,
+#home_calendar_events li div.home-cal-info span:first-of-type,
+#popup_title {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #009DDC;
+}
+#home_calendar_events li div.home-cal-info span:first-of-type,
+#popup_title {
+	font-size: 1.2em;
+}
+#infographics .infographics .infographic-content h2,
+#infographics .infographics .infographic-content h4 {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 1.5em;
+	line-height: 1.2;
+	margin: 0 0 0.7em 0;
+}
+#infographics .infographics .infographic-content h4 {
+	/*font-size: 1.3em;*/
+	margin: 0 0 0 0;
+}
+#infographics .infographics .infographic-content img {
+	margin-top: 1em;
+	height: 50px;
+	width: auto;
+}
+#infographics .infographics .infographic-content p {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+	line-height: 1.2;
+	margin: 0 0 0 0;
+}
+#infographics .infographics .infographic-content p a {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.infographic-one .infographic-content,
+.infographic-five .infographic-content {
+	background: rgba(190,207,41, 0.6); /* GREEN */
+}
+.infographic-one .infographic-content:hover,
+.infographic-five .infographic-content:hover {
+	background: rgba(190,207,41, 1.0); /* GREEN */
+	-moz-transition: all 500ms ease-in;
+	-webkit-transition: all 500ms ease-in;
+	-o-transition: all 500ms ease-in;
+	transition: all 500ms ease-in;
+}
+.infographic-two .infographic-content,
+.infographic-four .infographic-content {
+	background: rgba(0,153,204, 0.6); /* BLUE */
+}
+.infographic-two .infographic-content:hover,
+.infographic-four .infographic-content:hover {
+	background: rgba(0,153,204, 1.0); /* BLUE */
+	-moz-transition: all 500ms ease-in;
+	-webkit-transition: all 500ms ease-in;
+	-o-transition: all 500ms ease-in;
+	transition: all 500ms ease-in;
+}
+.infographic-three {
+	background: rgba(246,139,31, 1.0); /* ORANGE */
+}
+.infographic-three .infographic-content {
+	background: rgba(246,139,31, 0.6); /* ORANGE */
+}
+.infographic-three .infographic-content:hover {
+	background: rgba(246,139,31, 1.0); /* ORANGE */
+	-moz-transition: all 500ms ease-in;
+	-webkit-transition: all 500ms ease-in;
+	-o-transition: all 500ms ease-in;
+	transition: all 500ms ease-in;
+}
+.infographic-one .infographic-content .infographic-content-container,
+.infographic-five .infographic-content .infographic-content-container {
+	min-width: 75%;
+}
+.infographic-two .infographic-content .infographic-content-container,
+.infographic-four .infographic-content .infographic-content-container {
+	min-width: 75%;
+}
+.infographic-three .infographic-content .infographic-content-container {
+	min-width: 60%;
+}
+
+/**	Content
+============================ */
+h1.entry-title {
+	color: #009DDC;
+	font-weight: 500;
+}
+.entry-content h2 {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	color: #F68B1F;
+}
+h2.nobel-h2 {
+	color: #F68B1F;
+	font-size: 1.3em;
+	line-height: 1.5;
+	margin-bottom:.6em;
+}
+
+
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	color: #009DDC;
+}
+.entry-content a {
+	color: #009DDC;
+}
+.entry-content a:hover {
+	text-decoration: underline;
+}
+.nobel-button,
+input[type="submit"] {
+	background: #F68B1F;
+}
+
+
+/**	Sub Page Elements
+============================ */
+#nobel_tool_bar li,
+#nobel_tool_bar li a {
+	color: #009DDC;
+}
+#nobel_breadcrumbs {
+	background: #BECF29;
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+#nobel_breadcrumbs ul {}
+#nobel_breadcrumbs ul li {}
+#nobel_breadcrumbs ul li a {
+	color: #FFFFFF;
+}
+#nobel_breadcrumbs ul li.cur-page {
+	color: #009DDC;
+}
+/* Service Learning */
+body.slug-service-learning .entry-content ul {
+	color: #009DDC;
+}
+/* Site Map */
+.slug-sitemap a {
+    color: #F68B1F;
+}
+/* Testimonials */
+div.testimonials {
+	max-width: 1024px;
+	margin: auto;
+}
+ul.testimonial-list {
+	list-style: none;
+	margin: 0 0 0 0;
+}
+ul.testimonial-list li.testimonial-item {
+	display: block;
+	margin: 0 0 1em;
+}
+ul.testimonial-list li.testimonial-item p {
+	font-size: 1em;
+	display: inline-block;
+	position: relative;
+	padding: 0 0 0 1em;
+	margin: 0 0 0.6em 0;
+}
+ul.testimonial-list li.testimonial-item p:before,
+ul.testimonial-list li.testimonial-item p:after {
+	font-size: 1.6em;
+	color: rgba(0,0,0, .6);
+	line-height: 0;
+}
+ul.testimonial-list li.testimonial-item p:before {
+	content: "\201C";
+	position: absolute;
+	top: 16px;
+	left: 0;
+}
+ul.testimonial-list li.testimonial-item p:after {
+	content: "\201D";
+	position: absolute;
+	bottom: 4px;
+	margin: 0 0 0 4px;
+}
+ul.testimonial-list li.testimonial-item ul {
+	list-style: none;
+	text-align: center;
+	margin: 0.75em 0;
+}
+ul.testimonial-list li.testimonial-item:last-of-type ul {
+	display: none;
+}
+ul.testimonial-list li.testimonial-item ul li {
+	display: inline-block;
+	font-size: 0.6em;
+	vertical-align: middle;
+	color: #009DDC;
+}
+ul.testimonial-list li.testimonial-item ul li:nth-of-type(2) {
+	font-size: 0.75em;
+	margin: 0 0.7em;
+}
+ul.links-to-learning li h4 {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	color: #009DDC;
+}
+
+
+.nobel-calendar-container table.calendar-display .calendar-event a {
+	color: #009DDC;
+}
+.calendar-span h3, .main-navigation a.traverse {
+	color: #009DDC;
+}
+
+#news-articles .post h2.entry-title {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	font-size: 1.2em;
+	color: #009DDC;
+}
+#news-articles .post h2.entry-title a {
+	color: #009DDC;
+}
+
+#contact_form_info li i,
+#contact_form_info li span,
+#contact_form_info li h4,
+#contact_form_info li b {
+	color: #009DDC;
+}
+#contact_form_info li a {
+	color: #F68B1F;
+}
+#contact_form_info li b {
+	font-weight: 500;
+}
+
+
+/**	Footer
+============================ */
+#footer {
+	background: #009DDC;
+}
+#footer_social ul li a i {
+    color: #009DDC;
+}
+#footer_details p {
+	text-transform: none;
+	margin: 0 0 0.5em 0;
+}
+
+#footer_links p {
+	margin: 0 0 1.5em 0;
+}
+
+#footer_details {
+	margin-bottom: 3em;
+}
+
+@media only screen and ( min-width: 768px ) {
+
+	#school_details ul li.detail.principal {
+		display: none;
+	}
+
+	#infographics .infographics .infographic-content h2,
+	#infographics .infographics .infographic-content h4 {
+		font-size: 1.8em;
+	}
+	#infographics .infographics .infographic-content p {
+		font-size: 1.3em;
+	}
+
+} /* End Query */
+
+
+@media only screen and ( min-width: 1024px ) {
+
+	#school_details {
+		background: transparent;
+		font-size: 0.9em;
+	}
+	#school_details ul li.detail {
+		width: 20%;
+	}
+	#school_details ul li.detail.principal {
+		display: block;
+	}
+
+	#open_house_content p {
+		font-size: 1.2em
+	}
+	#open_house_content p:first-of-type {
+		font-size: 2.0em
+	}
+
+	#footer_nav li {
+		margin: 0 3.5em 0 0;
+	}
+
+} /* End Query */
+
+
+@media only screen and ( min-width: 1280px ) {
+
+	#main_nav ul.menu {
+		background: transparent;
+	}
+	#header,
+	#main_nav ul.menu li ul.children {
+		background: rgba(0,157,220, 0.9);
+	}
+	#main_nav ul.menu li ul.children li:hover a {
+		background: #FFD451;
+		color: #000000;
+	}
+
+	#school_details {
+		font-size: 1em;
+	}
+
+	#infographics .infographics .infographic-content h2,
+	#infographics .infographics .infographic-content h4 {
+		font-size: 2em;
+	}
+
+} /* End Query */
