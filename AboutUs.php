@@ -9,15 +9,15 @@
 <div class="bss-slides">
     <figure>
         <img src="images/school.jpg" width="100%" />
-        <figcaption>School</figcaption> 
+        <figcaption></figcaption> 
     </figure>
     <figure>
         <img src="images/gazebo.jpg" width="100%" />
-        <figcaption>Gazebo</figcaption> 
+        <figcaption></figcaption> 
     </figure>
     <figure>
         <img src="images/dragon.jpg" width="100%" />
-        <figcaption>Dragon</figcaption> 
+        <figcaption></figcaption> 
     </figure>
 </div>
 

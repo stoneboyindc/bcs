@@ -6,27 +6,6 @@
 <?php include ("includes/header.php"); ?>	   
 <!-- ==== end header =================================================================================-->     
 
-<div class="bss-slides">
-<!--
-    <figure>
-        <img src="images/firetruck.jpg" width="100%" />
-        <figcaption></figcaption> 
-    </figure>
-    <figure>
-        <img src="images/lisa.jpg" width="100%" />
-        <figcaption></figcaption> 
-    </figure>
-    <figure>
-        <img src="images/jack.jpg" width="100%" />
-        <figcaption></figcaption> 
-	</figure>
-	<figure>
-        <img src="images/lola.jpg" width="100%" />
-        <figcaption></figcaption> 
-    </figure>
-	-->
-</div>
-
 <!-- ==== slides =================================================================================-->
 <?php include ("includes/slides.php"); ?>	   
 <!-- ==== slides header =================================================================================-->     

@@ -41,10 +41,10 @@
 
 			<ul>
 				<li>Open Monday through Friday, 7:00 – 6:00 offering flexible schedules</li>
-				<li>Serving 2 – 5 year old</li>
+				<li>Serving children 2 – 5 year old</li>
 				<li>Family operated since 1944</li>
 				<li>Open all year</li>
-				<li>Student to teacher ratios – 1:6 (2 year olds) 1:8 (3 - 5 year olds</li>
+				<li>Student to teacher ratios – 1:6 (2 year olds) 1:8 (3 - 5 year olds)</li>
 				<li>Located on 1.5 acres in a quiet neighborhood</li>
 				<li>Snacks and lunches provided</li>
 			</ul>

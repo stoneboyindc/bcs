@@ -12,7 +12,7 @@
         <figcaption></figcaption> 
     </figure>
     <figure>
-        <img src="images/slide.jpg" width="100%" />
+        <img src="images/firetruck.jpg" width="100%" />
         <figcaption></figcaption> 
     </figure>
 </div>

@@ -19,6 +19,12 @@
         <img src="images/grace_mom.jpg" width="100%" />
         <figcaption></figcaption> 
     </figure>
+	<!--
+	<figure>
+        <img src="images/chalke.jpg" width="100%" />
+        <figcaption></figcaption> 
+    </figure>
+	-->
 </div>
 
 <!-- ==== slides =================================================================================-->
