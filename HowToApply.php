@@ -11,18 +11,16 @@
         <img src="images/tyler_alex.jpg" width="100%" />
         <figcaption></figcaption> 
     </figure>
-	<!--
     <figure>
         <img src="images/g_a.jpg" width="100%" />
         <figcaption></figcaption> 
     </figure>
-	-->
     <figure>
         <img src="images/carla.jpg" width="100%" />
         <figcaption></figcaption> 
 	</figure>
 	<figure>
-        <img src="images/pumpkin.jpg" width="100%" />
+        <img src="images/slide.jpg" width="100%" />
         <figcaption></figcaption> 
     </figure>
 </div>

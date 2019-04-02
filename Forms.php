@@ -11,6 +11,10 @@
         <img src="images/william.jpg" width="100%" />
         <figcaption></figcaption> 
     </figure>
+    <figure>
+        <img src="images/slide.jpg" width="100%" />
+        <figcaption></figcaption> 
+    </figure>
 </div>
 
 <!-- ==== slides =================================================================================-->
