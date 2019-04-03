@@ -25,7 +25,7 @@
 			<div id="tuition" class="page">
 			<h1 class="entry-title">Tuition</h1>
 				<div class="entry-content">
-<h1 style="text-align: center;"><span>MONTHLY INSTALLMENT SCHEDULE</span><br>School Year 2019-2020</h1>
+<h1 class="entry-title" style="text-align: center;"><span>MONTHLY INSTALLMENT SCHEDULE</span><br>School Year 2019-2020</h1>
     <p><strong>Tuition is due and payable the first of each month</strong>. &nbsp; The deposit is due upon enrollment or re-enrollment. &nbsp;During the School Year, four weeks notice of your intent to withdraw is required or, in lieu of notice, one month’s tuition is due. &nbsp;The fees listed below are <strong>monthly</strong>.</p>
     <p><strong>DEPOSIT &nbsp;------- $200.00 / per child</strong></p>
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
