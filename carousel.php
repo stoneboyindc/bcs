@@ -4,71 +4,39 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <style>
-  .carousel-control.left, .carousel-control.right {
-    background-image: none
-}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-img{
-object-fit:cover;
-object-position:center;
-}
-
-.item{
-width:100%
-height:100%
-}
-
-.carousel{
-width:100%
-min-height:500px;
-max-height:860px;
-}
-  </style>
+  <script type="text/javascript" src="js/jquery.js?ver=1.12.4"></script>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
 </head>
 <body>
 ​
-<div class="container-fluid">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators 
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    -->
-​
-    <!-- Wrapper for slides -->
-    <div class="row">
-    <div class="carousel-inner" >
-      <div class="item active">
-        <img src="images/school.jpg"  style="width:100%;">
-      </div>
-​
-      <div class="item">
-        <img src="images/gazebo.jpg"  style="width:100%;">
-      </div>
-    
-      <div class="item">
-        <img src="images/dragon.jpg"  style="width:100%;">
-      </div>
+<section id="carousel">
+<div id="carouselBCS" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/school.jpg" class="d-block w-100">
     </div>
-​
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <div class="carousel-item">
+      <img src="images/gazebo.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="images/dragon.jpg" class="d-block w-100">
+    </div>
   </div>
-  </div>
+  <a class="carousel-control-prev" href="#carouselBCS" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselBCS" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
+</section>
 ​
 </body>
 </html>

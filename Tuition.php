@@ -6,24 +6,23 @@
 <?php include ("includes/header.php"); ?>	   
 <!-- ==== end header =================================================================================-->     
 
-<div class="bss-slides">
-    <figure>
-        <img src="" width="100%" />
-        <figcaption></figcaption> 
-    </figure>
-</div>
-
 <!-- ==== slides =================================================================================-->
-<?php include ("includes/slides.php"); ?>	   
+<section id="carousel">
+<div id="carouselBCS" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/1x1.png" class="d-block h-10">
+    </div>
+</div>
+</section>  
 <!-- ==== slides header =================================================================================-->     
-    			
-		
+
 		    	
 	<div id="main">
 	<div id="container" class="full-width clear-fix">
 
 	<div id="content">
-			<div id="post-5" class="page">
+			<div id="tuition" class="page">
 			<h1 class="entry-title">Tuition</h1>
 				<div class="entry-content">
 <h1 style="text-align: center;"><span>MONTHLY INSTALLMENT SCHEDULE</span><br>School Year 2019-2020</h1>

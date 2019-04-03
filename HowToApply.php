@@ -6,29 +6,35 @@
 <?php include ("includes/header.php"); ?>	   
 <!-- ==== end header =================================================================================-->     
 
-<div class="bss-slides">
-    <figure>
-        <img src="images/tyler_alex.jpg" width="100%" />
-        <figcaption></figcaption> 
-    </figure>
-    <figure>
-        <img src="images/g_a.jpg" width="100%" />
-        <figcaption></figcaption> 
-    </figure>
-    <figure>
-        <img src="images/carla.jpg" width="100%" />
-        <figcaption></figcaption> 
-	</figure>
-	<figure>
-        <img src="images/slide.jpg" width="100%" />
-        <figcaption></figcaption> 
-    </figure>
-</div>
-
 <!-- ==== slides =================================================================================-->
-<?php include ("includes/slides.php"); ?>	   
+<section id="carousel">
+<div id="carouselBCS" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/tyler_alex.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="images/g_a.jpg" class="d-block w-100">
+    </div>
+	<div class="carousel-item">
+      <img src="images/carla.jpg" class="d-block w-100">
+    </div>
+	<div class="carousel-item">
+      <img src="images/slide.jpg" class="d-block w-100">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselBCS" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselBCS" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</section>  
 <!-- ==== slides header =================================================================================-->     
-    			
+				
 		
 		    	
 	<div id="main">

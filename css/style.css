@@ -24,3 +24,16 @@ h1.entry-title {
 	height: auto;
 	width: auto;
 }
+
+@media only screen and ( min-width: 768px ) {
+	#tuition {
+		padding-top: 0px;
+	}
+}
+
+@media only screen and ( min-width: 1280px ) {
+	#tuition {
+		padding-top: 90px;
+	}
+}
+

@@ -6,19 +6,17 @@
 <?php include ("includes/header.php"); ?>	   
 <!-- ==== end header =================================================================================-->     
 
-<div class="bss-slides">
-    <figure>
-        <img src="images/rain.jpg" width="100%" />
-        <figcaption></figcaption> 
-    </figure>
-</div>
-
 <!-- ==== slides =================================================================================-->
-<?php include ("includes/slides.php"); ?>	   
+<section id="carousel">
+<div id="carouselBCS" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/rain.jpg" class="d-block w-100">
+    </div>
+</div>
+</section>  
 <!-- ==== slides header =================================================================================-->     
-    			
-		
-		    	
+			
 	<div id="main">
 	<div id="container" class="full-width clear-fix">
 
