@@ -1,13 +1,14 @@
 <div id="footer" class="clear-fix"><div class="wrapper clear-fix">	
 	<div class="footer-section clear-fix">	
 	<div id="footer_details">
-		<p>Bethesda Community School</p>
+		<p><strong>Bethesda Community School</strong></p>
 		<ul>
 			<li>7500 Honeywell Lane</li>
 			<li class="separator">|</li>
 			<li>Bethesda, MD 20814</li>	
 		</ul>
-		<p>Contact Info</p>
+		<p />
+		<p><strong>Contact Info</strong></p>
 		<ul>
 			<li>Tammy Trainer</li>
 			<li class="separator">|</li>

@@ -6,6 +6,13 @@
 <?php include ("includes/header.php"); ?>	   
 <!-- ==== end header =================================================================================-->     
 
+<div class="bss-slides">
+    <figure>
+        <img src="" width="100%" />
+        <figcaption></figcaption> 
+    </figure>
+</div>
+
 <!-- ==== slides =================================================================================-->
 <?php include ("includes/slides.php"); ?>	   
 <!-- ==== slides header =================================================================================-->     
@@ -16,7 +23,7 @@
 	<div id="container" class="full-width clear-fix">
 
 	<div id="content">
-			<div id="post-5" class="post-5 page type-page status-publish has-post-thumbnail hentry p publish author-webdev untagged is-full comments-closed pings-closed y2015 m03 d16 h16 alt slug-home">
+			<div id="post-5" class="page">
 			<h1 class="entry-title">Tuition</h1>
 				<div class="entry-content">
 <h1 style="text-align: center;"><span>MONTHLY INSTALLMENT SCHEDULE</span><br>School Year 2019-2020</h1>
