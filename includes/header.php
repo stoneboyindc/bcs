@@ -33,7 +33,7 @@
 		
 				
 <ul id="main_menu" class="menu">
-	<li class="page_item_has_children"><a href="home.php">About Us</a>
+	<li class="page_item_has_children"><a href="index.php">About Us</a>
 	<ul class="children">
 		<li class="page_item"><a href="OurMission.php">Our Mission</a></li>
 		<li class="page_item"><a href="OurHistory.php">Our History</a></li>
